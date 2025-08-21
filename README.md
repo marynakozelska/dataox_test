@@ -67,8 +67,8 @@ A REST API for managing clients and orders built with Spring Boot and Java. This
 
 1. Clone the repository
    ```bash
-   git clone <repository-url>
-   cd вфефщч_еуіе
+   git clone [<repository-url>](https://github.com/marynakozelska/dataox_test.git)
+   cd dataox_test
 
 2. Build and start the services using Docker Compose
     ``` bash
