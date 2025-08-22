@@ -8,7 +8,7 @@ A REST API for managing clients and orders built with Spring Boot and Java. This
 - **Framework**: Spring Boot 3.x
 - **Database**: PostgreSQL (production), H2 (development)
 - **Build Tool**: Maven
-- **Testing**: JUnit, Mockito
+- **Testing**: JUnit 5
 - **Deployment**: Docker with Docker Compose
 
 ## Features
@@ -55,7 +55,7 @@ A REST API for managing clients and orders built with Spring Boot and Java. This
 - `POST /api/orders` - Create a new order
 - `GET /api/orders/clients/{clientId}/orders` - Get orders for a specific client
 
-## Setting Up the Project
+## Quick Start
 
 ### Prerequisites
 
@@ -67,7 +67,7 @@ A REST API for managing clients and orders built with Spring Boot and Java. This
 
 1. Clone the repository
    ```bash
-   git clone [<repository-url>](https://github.com/marynakozelska/dataox_test.git)
+   git clone https://github.com/marynakozelska/dataox_test.git
    cd dataox_test
 
 2. Build and start the services using Docker Compose
@@ -89,3 +89,12 @@ The API provides comprehensive error handling with appropriate HTTP status codes
 - **404 Not Found** for missing resources
 - **409 Conflict** for business rule violations
 - **500 Internal Server Error** for server issues
+
+## Troubleshooting
+
+### Common Issues
+
+- **Port conflicts**: Check if ports 8080, 8081, or 5432 are available
+- **Docker issues**: Ensure Docker is running and has sufficient resources  
+- **Build failures**: Verify JDK 17 is installed and configured
+
